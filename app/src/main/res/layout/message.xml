@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <import type="com.example.shenjack.lucky.data.Message" />
+        <variable
+            name="message"
+            type="Message"/>
+    </data>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_height="55dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:id="@+id/up_ll"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="32dp"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+            <TextView
+                android:layout_width="0dp"
+                android:id="@+id/handle"
+                android:text="@{message.handle}"
+                android:textColor="@color/colorAccent"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                />
+            <TextView
+                android:layout_width="0dp"
+                android:text="@{message.message}"
+                android:id="@+id/text"
+                android:layout_weight="4"
+                android:layout_height="match_parent"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:textSize="11sp"
+            android:layout_below="@+id/up_ll"
+            android:gravity="right"
+            android:text="@{message.timeString}"
+            android:id="@+id/time"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </RelativeLayout>
+</layout>

@@ -9,7 +9,7 @@
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
+    <string name="error_field_required">名字不能为空</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
@@ -17,4 +17,14 @@
     <string name="password">password</string>
     <string name="register">register</string>
     <string name="sign_in">sign in</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="setting">设置</string>
+    <string name="friends">好友</string>
+    <string name="chatrooms">聊天室</string>
+    <string name="can_not_be_empty">不能为空噢</string>
+    <string name="password_again">再次输入密码</string>
+    <string name="not_same_password">两次密码不一致</string>
 </resources>

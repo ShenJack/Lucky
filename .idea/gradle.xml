@@ -5,7 +5,7 @@
       <GradleProjectSettings>
         <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/下载/gradle-4.3.1" />
+        <option name="gradleHome" value="C:/WeaponsLib/gradle-4.3.1-bin" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
